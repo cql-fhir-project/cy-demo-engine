@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  cy-demo-engine:
+    image: containersolution/cy-demo-engine:latest
+    volumes:
+      - ./measure-packages/:/usr/src/app/measure-packages/
+    environment:
+      NODE_ENV: production
+      MEASURE_PACKAGE: DiabeticFootExam-1.0.0
