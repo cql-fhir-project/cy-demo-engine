@@ -59,9 +59,4 @@ that the CodeService expects.
 Another approach would be to write our own CodeService implementation (like cql-exec-vsac) that knows how to read VSD files. 
 This approach might be more efficient (depending on implementation) but is likely more work.
 
-#### FAQ:
-1. Q: What FHIR Dialect version?
-A: There is no FHIR Dialect versions. There is FHIR versions.
-The cql2elm library automatically detects FHIR version by `using FHIR version '4.0.1'` line. 
-You can make sure on your own experimenting with cql files.
 
